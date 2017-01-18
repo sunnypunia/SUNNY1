@@ -1,0 +1,92 @@
+
+Dec 30, 2016 17:13:28.46 NEW SESSION
+Dec 30, 2016 17:13:28.46 1483098208457	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+
+Jan 01, 2017 12:21:52.82 NEW SESSION
+Jan 01, 2017 12:21:52.82 1483253512821	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Jan 01, 2017 12:30:50.88 1483254050859	addons.repository	WARN	Search failed when repopulating cache
+Jan 01, 2017 12:30:51.23 1483254051212	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Jan 01, 2017 12:30:51.23 1483254051213	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Jan 01, 2017 12:30:51.23 1483254051214	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Jan 01, 2017 12:30:51.23 1483254051215	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Jan 01, 2017 12:30:51.23 1483254051217	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Jan 01, 2017 12:30:51.24 1483254051219	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Jan 01, 2017 12:30:51.24 1483254051223	addons.update-checker	WARN	HTTP Request failed for an unknown reason
+Jan 01, 2017 12:30:51.24 1483254051228	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+Jan 01, 2017 12:30:51.25 1483254051228	addons.manager	WARN	Failed to update system addons: Error: Failed downloading XML, status: 0, reason: error (resource://gre/modules/addons/ProductAddonChecker.jsm:103:16) JS Stack trace: downloadXML/</fail@ProductAddonChecker.jsm:103:16
+
+Jan 02, 2017 14:33:18.45 NEW SESSION
+Jan 02, 2017 14:33:18.45 1483347798444	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jan 02, 2017 14:33:18.67 1483347798664	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jan 02, 2017 14:33:19.05 1483347799048	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jan 02, 2017 14:33:21.12 1483347801115	addons.xpi	ERROR	Failed to clean updated system add-ons directories.: Win error 2 during operation DirectoryIterator.prototype.next on file C:\Users\hcl\AppData\Roaming\Mozilla\Firefox\Profiles\iqck3rpj.default\features (The system cannot find the file specified.
+Jan 02, 2017 14:33:21.12 
+Jan 02, 2017 14:33:21.12 ) ((unknown module)) No traceback available
+Jan 02, 2017 15:17:28.31 console.warn: Asynchronous operation was aborted as selection changed.
+Jan 02, 2017 15:36:13.82 Handler function threw an exception: TypeError: threadActor is null
+Jan 02, 2017 15:36:13.82 Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1723:1
+Jan 02, 2017 15:36:13.82 TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1660:7
+Jan 02, 2017 15:36:13.82 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Jan 02, 2017 15:36:13.82 Line: 1723, column: 1
+Jan 02, 2017 15:36:13.82 console.error: 
+Jan 02, 2017 15:36:13.82   Handler function threw an exception: TypeError: threadActor is null
+Jan 02, 2017 15:36:13.82 Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1723:1
+Jan 02, 2017 15:36:13.82 TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1660:7
+Jan 02, 2017 15:36:13.82 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Jan 02, 2017 15:36:13.82 Line: 1723, column: 1
+Jan 02, 2017 15:36:13.84 console.error: 
+Jan 02, 2017 15:36:13.84   Protocol error (noSuchActor): No such actor for ID: server1.conn0.animationsActor23
+
+Jan 02, 2017 15:58:21.83 NEW SESSION
+Jan 02, 2017 15:58:21.83 console.warn: Asynchronous operation was aborted as selection changed.
+Jan 02, 2017 16:06:58.81 console.warn: Asynchronous operation was aborted as selection changed.
+Jan 02, 2017 16:52:10.12 Performance warning: Async animation disabled because frame size (1200, 7760) is bigger than the viewport (1537, 828) or the visual rectangle (1200, 7760) is larger than the max allowable value (17895698) [main with id 'main']
+Jan 02, 2017 17:28:33.06 console.warn: Asynchronous operation was aborted as selection changed.
+Jan 02, 2017 17:28:59.30 Handler function threw an exception: TypeError: threadActor is null
+Jan 02, 2017 17:28:59.30 Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1723:1
+Jan 02, 2017 17:28:59.31 TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1660:7
+Jan 02, 2017 17:28:59.31 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Jan 02, 2017 17:28:59.31 Line: 1723, column: 1
+Jan 02, 2017 17:28:59.31 console.error: 
+Jan 02, 2017 17:28:59.31   Handler function threw an exception: TypeError: threadActor is null
+Jan 02, 2017 17:28:59.31 Stack: TabActor.prototype._windowReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1723:1
+Jan 02, 2017 17:28:59.31 TabActor.prototype._changeTopLevelDocument/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/webbrowser.js:1660:7
+Jan 02, 2017 17:28:59.31 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Jan 02, 2017 17:28:59.31 Line: 1723, column: 1
+Jan 02, 2017 17:28:59.33 console.error: 
+Jan 02, 2017 17:28:59.33   Protocol error (noSuchActor): No such actor for ID: server1.conn2.animationsActor23
+
+Jan 04, 2017 14:15:27.09 NEW SESSION
+Jan 04, 2017 14:15:27.09 1483519527091	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+
+Jan 04, 2017 14:55:22.30 NEW SESSION
+Jan 04, 2017 14:55:22.30 hashcompleter: notifying failure
+Jan 04, 2017 14:58:57.69 1483522137686	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jan 04, 2017 14:58:57.99 1483522137990	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jan 04, 2017 14:58:58.35 1483522138351	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jan 04, 2017 14:59:00.09 1483522140091	addons.xpi	ERROR	Failed to clean updated system add-ons directories.: Win error 2 during operation DirectoryIterator.prototype.next on file C:\Users\hcl\AppData\Roaming\Mozilla\Firefox\Profiles\iqck3rpj.default\features (The system cannot find the file specified.
+Jan 04, 2017 14:59:00.09 
+Jan 04, 2017 14:59:00.09 ) ((unknown module)) No traceback available
+
+Jan 05, 2017 17:38:20.79 NEW SESSION
+Jan 05, 2017 17:38:20.79 1483618100791	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+
+Jan 07, 2017 19:47:49.65 NEW SESSION
+Jan 07, 2017 19:47:49.65 1483798669641	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jan 07, 2017 19:47:50.05 1483798670049	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jan 07, 2017 19:47:51.46 1483798671455	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jan 07, 2017 19:47:54.18 1483798674173	addons.xpi	ERROR	Failed to clean updated system add-ons directories.: Win error 2 during operation DirectoryIterator.prototype.next on file C:\Users\hcl\AppData\Roaming\Mozilla\Firefox\Profiles\iqck3rpj.default\features (The system cannot find the file specified.
+Jan 07, 2017 19:47:54.18 
+Jan 07, 2017 19:47:54.18 ) ((unknown module)) No traceback available
+
+Jan 09, 2017 14:05:34.61 NEW SESSION
+Jan 09, 2017 14:05:34.61 1483950934592	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jan 09, 2017 14:05:34.99 1483950934977	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jan 09, 2017 14:05:35.35 1483950935333	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jan 09, 2017 14:05:36.97 1483950936952	addons.xpi	ERROR	Failed to clean updated system add-ons directories.: Win error 2 during operation DirectoryIterator.prototype.next on file C:\Users\hcl\AppData\Roaming\Mozilla\Firefox\Profiles\iqck3rpj.default\features (The system cannot find the file specified.
+Jan 09, 2017 14:05:36.97 
+Jan 09, 2017 14:05:36.97 ) ((unknown module)) No traceback available
+
+Jan 09, 2017 16:17:17.49 NEW SESSION
+Jan 09, 2017 16:17:17.49 hashcompleter: cancelling request to https://safebrowsing.google.com/safebrowsing/gethash?client=navclient-auto-ffox&appver=46.0&pver=2.2
+Jan 09, 2017 16:17:17.52 hashcompleter: notifying failure

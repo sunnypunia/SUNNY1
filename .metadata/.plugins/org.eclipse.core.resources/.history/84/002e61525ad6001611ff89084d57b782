@@ -1,0 +1,205 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<title>Register</title>
+
+<style type="text/css">
+ .navbar {
+    background-color: #900C3F ;
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+	body, html{
+     height: 100%;
+ 	background-repeat: no-repeat;
+ 	 background: url(http://store.bbcomcdn.com/images/store/prodimage/prod_prod1330192/image_prodprod1330192_largeImage_X_450_white.jpg) no-repeat left fixed;
+ 	
+ 	font-family: 'Oxygen', sans-serif;
+}
+
+.main{
+ 	margin-top: 70px;
+}
+
+h1.title { 
+	font-size: 50px;
+	font-family: 'Passion One', cursive; 
+	font-weight: 400; 
+}
+
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+	}
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      
+      <a class="navbar-brand" href="#">muscleHUNT</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        
+         <ul class="nav navbar-nav">
+   <li class="active"><a href ="#">Home</a>
+   <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Your Goal
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Lean mass</a></li>
+          <li><a href="#">Gain weight</a></li>
+          <li><a href="#">Weight loss</a></li>
+          
+          
+        </ul>
+        </li>
+<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">whey</a></li>
+          <li><a href="#">casien</a></li>
+          <li><a href="#">bcaa</a></li>
+          <li><a href="#">pre-workout</a></li>
+          <li><a href="#">post-workout</a></li>
+          <li><a href="#">energy bars</a></li>
+          
+        </ul>
+        </li>
+<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Your Sport
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Bodybuilding</a></li>
+           <li><a href="#">Athlete</a></li> 
+           <li><a href="#">Boxing</a></li>
+            <li><a href="#">Running</a></li>
+             <li><a href="#">Fitness</a></li>
+             </ul>
+             </li>
+         </ul>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+ 	 <li><a href="login"><span class="glyphicon glyphicon-user"></span>Your account</a></li>
+      <li><a href="registration"><span class="glyphicon glyphicon-log-in"></span> Register</a></li>
+      <li><a href="contactus"><span class="glyphicon glyphicon-contact-us"></span> Contact Us</a></li>     
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+			<div class="row main">
+				<div class="panel-heading">
+	               <div class="panel-title text-left">
+	               		<h1 class="title"><font color="#900C3F">Registration Page</font></h1>
+	               		<hr />
+	               	</div>
+	            </div> 
+				<div class="main-login main-center">
+					<form class="form-horizontal" method="post" action="#">
+						<div class="form-group">
+							<label for="username" class="cols-sm-2 control-label"><font color="#900C3F">Name</font></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+								</div>
+							</div>
+						</div>
+						
+						
+
+							<div class="form-group">
+							<label for="password" class="cols-sm-2 control-label"><font color="#900C3F">Password</font></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+								</div>
+							</div>
+						</div>
+						
+						
+						<div class="form-group">
+							<label for="name" class="cols-sm-2 control-label"><font color="#900C3F">Name</font></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+								</div>
+							</div>
+						</div>
+
+						
+						
+
+						<div class="form-group">
+							<label for="contact" class="cols-sm-2 control-label"><font color="#900C3F">Contact</font></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="confirm" id="contact"  placeholder="Contact your Password"/>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="address" class="cols-sm-2 control-label"><font color="#900C3F">Address</font></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="address" id="address"  placeholder="Enter your Address"/>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label"><font color="#900C3F">Your Email</font></label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group ">
+							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Register</button>
+						</div>
+						<div class="login-register">
+				            
+				         </div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+
+</body>
+</html>

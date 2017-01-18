@@ -1,0 +1,84 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<title>Register</title>
+
+<style type="text/css">
+	html,body{
+			height:100%;
+		background: center no-repeat fixed url("https://www.google.co.in/search?q=stevecook&tbm=isch&imgil=DC-ZM2KTeXSP-M%253A%253BIOQdwXOyo8TsUM%253Bhttps%25253A%25252F%25252Fwww.youtube.com%25252Fuser%25252Fswoldiernation&source=iu&pf=m&fir=DC-ZM2KTeXSP-M%253A%252CIOQdwXOyo8TsUM%252C_&usg=__qbuTy_S0tAuY0u70_2RwUMkPVA8%3D&biw=1366&bih=657&ved=0ahUKEwitmbzG7ZvRAhUBuo8KHRoaA6kQyjcImgE&ei=qkpmWK2cGoH0vgSatIzICg#imgdii=DC-ZM2KTeXSP-M%3A%3BDC-ZM2KTeXSP-M%3A%3BcxhPiv7m3Icf8M%3A&imgrc=DC-ZM2KTeXSP-M%3A");
+		background-color:black;
+	}
+
+</style>
+</head>
+<body background-image:url("resources/images/Anthony-3169w-1024x819.jpg")>
+<div class="container">
+            <form class="form-horizontal" action="register" role="form">
+                <h2><font color="#900C3F">Registration Form</font></h2>
+                <div class="form-group">
+                    <label for="username" class="col-sm-3 control-label"><font color="#900C3F">Username</font></label>
+                    <div class="col-sm-9">
+                        <input type="text" id="firstName" name="username" placeholder="username" class="form-control" autofocus>
+                        <span class="help-block"></span>
+                    </div>
+                </div>
+               
+                <div class="form-group">
+                    <label for="password" class="col-sm-3 control-label"><font color="#900C3F">Password</font></label>
+                    <div class="col-sm-9">
+                        <input type="password" id="password" name="password" placeholder="Password" class="form-control">
+                    </div>
+                </div>
+                 <div class="form-group">
+                    <label for="name" class="col-sm-3 control-label"><font color="#900C3F">Name</font></label>
+                    <div class="col-sm-9">
+                        <input type="name" id="email" placeholder="name" name="name" class="form-control">
+                    </div>
+                </div>
+                 <div class="form-group">
+                    <label for="contact" class="col-sm-3 control-label"><font color="#900C3F">Contact</font></label>
+                    <div class="col-sm-9">
+                        <input type="contact" id="email" placeholder="contact" name="contact" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="address" class="col-sm-3 control-label"><font color="#900C3F">Address</font></label>
+                    <div class="col-sm-9">
+                        <input type="date" id="address" name="address" class="form-control">
+                    </div>
+                </div>
+                 <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label"><font color="#900C3F">Email</font></label>
+                    <div class="col-sm-9">
+                        <input type="email" id="email" placeholder="Email" name="email" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><font color="#900C3F">I accept</font> <a href="#"><font color="#900C3F">terms</font></a>
+                            </label>
+                        </div>
+                    </div>
+                </div> <!-- /.form-group -->
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <button type="submit" class="btn btn-primary btn-block"><font color="#900C3F">Register</font></button>
+                    </div>
+                </div>
+            </form> <!-- /form -->
+        </div> <!-- ./container -->
+
+
+</body>
+</html>
