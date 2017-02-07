@@ -1,7 +1,0 @@
-package com.niit.dao;
-
-public interface UserDAO {
-	public boolean validate(String username,String password);
-	public void isSave(User u);
-
-}
